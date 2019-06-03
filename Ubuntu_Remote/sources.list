@@ -1,0 +1,30 @@
+#------------------------------------------------------------------------------#
+#                            OFFICIAL UBUNTU REPOS                             #
+#------------------------------------------------------------------------------#
+
+
+###### Ubuntu Main Repos
+deb http://us.archive.ubuntu.com/ubuntu/ bionic main restricted universe multiverse 
+deb-src http://us.archive.ubuntu.com/ubuntu/ bionic main restricted universe multiverse 
+
+###### Ubuntu Update Repos
+deb http://us.archive.ubuntu.com/ubuntu/ bionic-security main restricted universe multiverse 
+deb http://us.archive.ubuntu.com/ubuntu/ bionic-updates main restricted universe multiverse 
+deb http://us.archive.ubuntu.com/ubuntu/ bionic-proposed main restricted universe multiverse 
+deb http://us.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse 
+deb-src http://us.archive.ubuntu.com/ubuntu/ bionic-security main restricted universe multiverse 
+deb-src http://us.archive.ubuntu.com/ubuntu/ bionic-updates main restricted universe multiverse 
+deb-src http://us.archive.ubuntu.com/ubuntu/ bionic-proposed main restricted universe multiverse 
+deb-src http://us.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse 
+
+#------------------------------------------------------------------------------#
+#                           UNOFFICIAL UBUNTU REPOS                            #
+#------------------------------------------------------------------------------#
+
+
+###### 3rd Party Binary Repos
+
+#### Google Chrome Browser - http://www.google.com/linuxrepositories/
+## Run this command: wget -q https://dl.google.com/linux/linux_signing_key.pub -O- | sudo apt-key add -
+deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
+
